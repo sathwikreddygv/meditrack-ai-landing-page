@@ -16,15 +16,12 @@ export const Hero = () => {
             Get Started
           </Button>
         </div>
-        <div className="relative animate-float">
-          <div className="relative z-10">
-            <img
-              src="/lovable-uploads/b9815b48-d170-49a6-bfa3-813831e0f953.png"
-              alt="MediTrack app interface"
-              className="w-full h-auto rounded-lg shadow-xl"
-            />
-          </div>
-          <div className="absolute inset-0 bg-secondary/30 rounded-lg transform rotate-3 -z-10" />
+        <div className="relative">
+          <img
+            src="/lovable-uploads/46486ffe-e4f8-4977-b9cf-6b6d6c1f6dbf.png"
+            alt="MediTrack app interface showing medication reminders in a cozy home setting"
+            className="w-full h-auto rounded-lg shadow-xl"
+          />
         </div>
       </div>
     </div>
