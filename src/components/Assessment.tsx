@@ -11,6 +11,14 @@ export const Assessment = () => {
         </p>
       </div>
 
+      <div className="relative mb-12">
+        <img
+          src="/lovable-uploads/05bfb7c1-7a27-4ce8-a6e1-e882fd30b0d7.png"
+          alt="MediTrack self-assessment tools interface"
+          className="w-full h-auto rounded-lg shadow-xl mx-auto max-w-4xl"
+        />
+      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
         <Card className="group hover:shadow-lg transition-shadow cursor-pointer">
           <CardHeader>

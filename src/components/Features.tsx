@@ -12,6 +12,14 @@ export const Features = () => {
         </p>
       </div>
 
+      <div className="relative mb-12">
+        <img
+          src="/lovable-uploads/7f6c6d87-c3a4-42cc-990b-3da314a04bde.png"
+          alt="MediTrack features overview showing app interface and community"
+          className="w-full h-auto rounded-lg shadow-xl mx-auto max-w-4xl"
+        />
+      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
         <Button className="h-16 text-lg" variant="default">
           <Bell className="mr-2" /> Set up reminders
