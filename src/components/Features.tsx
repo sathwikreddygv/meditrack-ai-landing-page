@@ -69,15 +69,15 @@ export const Features = () => {
           <h3 className="text-xl font-semibold mb-3">Medication Reminders</h3>
           <p>Stay on track with timely notifications.</p>
         </Card>
-        <Card className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-900 p-6 hover:scale-105 transition-transform h-full">
+        <Card className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-800 p-6 hover:scale-105 transition-transform h-full">
           <h3 className="text-xl font-semibold mb-3">Dosage Tracking</h3>
           <p>Keep a log of your medication intake and progress.</p>
         </Card>
-        <Card className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-1000 p-6 hover:scale-105 transition-transform h-full">
+        <Card className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-800 p-6 hover:scale-105 transition-transform h-full">
           <h3 className="text-xl font-semibold mb-3">Health Reports</h3>
           <p>View trends and share with healthcare providers.</p>
         </Card>
-        <Card className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-1100 p-6 hover:scale-105 transition-transform h-full">
+        <Card className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-800 p-6 hover:scale-105 transition-transform h-full">
           <h3 className="text-xl font-semibold mb-3">Pill Refill Alerts</h3>
           <p>Get notified when you're running low on medication.</p>
         </Card>
