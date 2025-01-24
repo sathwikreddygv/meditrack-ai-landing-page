@@ -38,7 +38,7 @@ export const Features = () => {
         <img
           src="/lovable-uploads/7f6c6d87-c3a4-42cc-990b-3da314a04bde.png"
           alt="MediTrack features overview showing app interface and community"
-          className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-300 w-full h-auto rounded-lg shadow-xl mx-auto max-w-4xl animate-float"
+          className="scroll-animate opacity-0 translate-y-10 transition-all delay-300 w-full h-auto rounded-lg shadow-xl mx-auto max-w-4xl animate-float"
           loading="lazy"
           onLoad={(e) => {
             const target = e.target as HTMLImageElement;
