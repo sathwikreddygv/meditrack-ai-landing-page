@@ -5,56 +5,56 @@ import { Bell, LineChart, Pill, ClipboardList, Users } from "lucide-react";
 export const Features = () => {
   return (
     <div className="container px-4 py-8 md:py-12">
-      <div className="text-center mb-12">
+      <div className="text-center mb-12 animate-fade-in">
         <h1 className="text-4xl font-serif font-bold mb-4">How to Use MediTrack</h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
           This short guide will walk you through MediTrack's key features and how they can simplify your medication routine.
         </p>
       </div>
 
-      <div className="relative mb-12">
+      <div className="relative mb-12 animate-fade-in animation-delay-200">
         <img
           src="/lovable-uploads/7f6c6d87-c3a4-42cc-990b-3da314a04bde.png"
           alt="MediTrack features overview showing app interface and community"
-          className="w-full h-auto rounded-lg shadow-xl mx-auto max-w-4xl"
+          className="w-full h-auto rounded-lg shadow-xl mx-auto max-w-4xl animate-float"
         />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
-        <Button className="h-16 text-lg" variant="default">
+        <Button className="h-16 text-lg animate-fade-in animation-delay-300" variant="default">
           <Bell className="mr-2" /> Set up reminders
         </Button>
-        <Button className="h-16 text-lg" variant="outline">
+        <Button className="h-16 text-lg animate-fade-in animation-delay-400" variant="outline">
           <LineChart className="mr-2" /> Get medication insights
         </Button>
-        <Button className="h-16 text-lg" variant="outline">
+        <Button className="h-16 text-lg animate-fade-in animation-delay-500" variant="outline">
           <Pill className="mr-2" /> Track doses
         </Button>
-        <Button className="h-16 text-lg" variant="outline">
+        <Button className="h-16 text-lg animate-fade-in animation-delay-600" variant="outline">
           <ClipboardList className="mr-2" /> Manage prescriptions
         </Button>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
-        <Card className="p-6">
+        <Card className="p-6 animate-fade-in animation-delay-700 hover:scale-105 transition-transform">
           <h3 className="text-xl font-semibold mb-3">Medication Reminders</h3>
           <p>Stay on track with timely notifications.</p>
         </Card>
-        <Card className="p-6">
+        <Card className="p-6 animate-fade-in animation-delay-800 hover:scale-105 transition-transform">
           <h3 className="text-xl font-semibold mb-3">Dosage Tracking</h3>
           <p>Keep a log of your medication intake and progress.</p>
         </Card>
-        <Card className="p-6">
+        <Card className="p-6 animate-fade-in animation-delay-900 hover:scale-105 transition-transform">
           <h3 className="text-xl font-semibold mb-3">Health Reports</h3>
           <p>View trends and share with healthcare providers.</p>
         </Card>
-        <Card className="p-6">
+        <Card className="p-6 animate-fade-in animation-delay-1000 hover:scale-105 transition-transform">
           <h3 className="text-xl font-semibold mb-3">Pill Refill Alerts</h3>
           <p>Get notified when you're running low on medication.</p>
         </Card>
       </div>
 
-      <div className="text-center">
+      <div className="text-center animate-fade-in animation-delay-1000">
         <Users className="w-24 h-24 mx-auto mb-4 text-primary animate-float" />
         <p className="text-muted-foreground">Join our community of users managing their health effectively</p>
       </div>
