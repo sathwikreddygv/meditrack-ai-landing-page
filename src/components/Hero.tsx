@@ -39,11 +39,10 @@ export const Hero = () => {
           </Button>
         </div>
         <div className="relative scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-400">
-          <div className="bg-gray-200 animate-pulse rounded-lg w-full h-[300px] md:h-[400px]" /> {/* Placeholder */}
           <img
             src="/lovable-uploads/9c255d59-2b37-4d71-a468-fdf05703917f.png"
             alt="MediTrack app interface showing medication reminders in a cozy home setting"
-            className="w-full h-auto rounded-lg shadow-xl animate-float absolute top-0 left-0"
+            className="w-full h-auto rounded-lg shadow-xl animate-float"
             loading="lazy"
             onLoad={(e) => {
               const target = e.target as HTMLImageElement;
