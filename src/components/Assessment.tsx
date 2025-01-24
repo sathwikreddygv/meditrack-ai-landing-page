@@ -59,9 +59,22 @@ export const Assessment = () => {
         <h1 className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 text-4xl font-serif font-bold mb-4">
           Choose a Health Assessment
         </h1>
-        <p className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-200 text-lg text-muted-foreground max-w-2xl mx-auto">
+        <p className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-200 text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
           Assess your health with our simple self-assessment tools and get personalized recommendations.
         </p>
+        <div className="relative scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-300 max-w-4xl mx-auto mb-12">
+          <div className="bg-gray-200 animate-pulse rounded-lg w-full h-[200px] md:h-[300px]" /> {/* Placeholder */}
+          <img
+            src="/lovable-uploads/b2e48746-2de1-40bb-b91d-bc2a1592b746.png"
+            alt="MediTrack assessment tools interface showing various health tracking features"
+            className="w-full h-auto rounded-lg shadow-xl absolute top-0 left-0"
+            loading="lazy"
+            onLoad={(e) => {
+              const target = e.target as HTMLImageElement;
+              target.style.opacity = '1';
+            }}
+          />
+        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
