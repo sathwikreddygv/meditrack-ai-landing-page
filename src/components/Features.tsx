@@ -35,10 +35,16 @@ export const Features = () => {
       </div>
 
       <div className="relative mb-12">
+        <div className="bg-gray-200 animate-pulse rounded-lg w-full h-[300px] md:h-[400px]" /> {/* Placeholder */}
         <img
           src="/lovable-uploads/7f6c6d87-c3a4-42cc-990b-3da314a04bde.png"
           alt="MediTrack features overview showing app interface and community"
-          className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-300 w-full h-auto rounded-lg shadow-xl mx-auto max-w-4xl animate-float"
+          className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-300 w-full h-auto rounded-lg shadow-xl mx-auto max-w-4xl animate-float absolute top-0 left-0"
+          loading="lazy"
+          onLoad={(e) => {
+            const target = e.target as HTMLImageElement;
+            target.style.opacity = '1';
+          }}
         />
       </div>
 

@@ -37,11 +37,17 @@ const Assessment = () => {
               Assess your health with our simple self-assessment tools and get personalized recommendations.
             </p>
           </div>
-          <div className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-300">
+          <div className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-300 relative">
+            <div className="bg-gray-200 animate-pulse rounded-lg w-full h-[300px]" /> {/* Placeholder */}
             <img 
               src="/lovable-uploads/5e8aca61-a79a-48a4-a27f-d032a01cf3fa.png"
               alt="MediTrack Assessment Tools" 
-              className="w-full h-auto rounded-lg shadow-lg"
+              className="w-full h-auto rounded-lg shadow-lg absolute top-0 left-0"
+              loading="lazy"
+              onLoad={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.style.opacity = '1';
+              }}
             />
           </div>
         </div>
