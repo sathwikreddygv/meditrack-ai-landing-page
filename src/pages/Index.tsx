@@ -1,5 +1,7 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
+import { Features } from "@/components/Features";
+import { Assessment } from "@/components/Assessment";
 import { Footer } from "@/components/Footer";
 
 const Index = () => {
@@ -8,6 +10,8 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <Features />
+        <Assessment />
       </main>
       <Footer />
     </div>
