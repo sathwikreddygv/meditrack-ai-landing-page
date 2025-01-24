@@ -65,17 +65,22 @@ export const Features = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
-        {[
-          { title: "Medication Reminders", desc: "Stay on track with timely notifications.", delay: "delay-800" },
-          { title: "Dosage Tracking", desc: "Keep a log of your medication intake and progress.", delay: "delay-900" },
-          { title: "Health Reports", desc: "View trends and share with healthcare providers.", delay: "delay-1000" },
-          { title: "Pill Refill Alerts", desc: "Get notified when you're running low on medication.", delay: "delay-1100" }
-        ].map(({ title, desc, delay }) => (
-          <Card key={title} className={`scroll-animate opacity-0 translate-y-10 transition-all duration-700 ${delay} p-6 hover:scale-105 transition-transform`}>
-            <h3 className="text-xl font-semibold mb-3">{title}</h3>
-            <p>{desc}</p>
-          </Card>
-        ))}
+        <Card className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-800 p-6 hover:scale-105 transition-transform h-full">
+          <h3 className="text-xl font-semibold mb-3">Medication Reminders</h3>
+          <p>Stay on track with timely notifications.</p>
+        </Card>
+        <Card className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-900 p-6 hover:scale-105 transition-transform h-full">
+          <h3 className="text-xl font-semibold mb-3">Dosage Tracking</h3>
+          <p>Keep a log of your medication intake and progress.</p>
+        </Card>
+        <Card className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-1000 p-6 hover:scale-105 transition-transform h-full">
+          <h3 className="text-xl font-semibold mb-3">Health Reports</h3>
+          <p>View trends and share with healthcare providers.</p>
+        </Card>
+        <Card className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-1100 p-6 hover:scale-105 transition-transform h-full">
+          <h3 className="text-xl font-semibold mb-3">Pill Refill Alerts</h3>
+          <p>Get notified when you're running low on medication.</p>
+        </Card>
       </div>
 
       <div className="text-center">
