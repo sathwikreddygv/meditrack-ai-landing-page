@@ -79,7 +79,7 @@ export const Features = () => {
       </div>
 
       <div className="text-center">
-        <Users className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-1200 w-24 h-24 mx-auto mb-4 text-primary animate-float" />
+        <Users className="scroll-animate opacity-0 translate-y-10 transition-all delay-1200 w-24 h-24 mx-auto mb-4 text-primary animate-float" />
         <p className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-1300 text-muted-foreground">
           Join our community of users managing their health effectively
         </p>
