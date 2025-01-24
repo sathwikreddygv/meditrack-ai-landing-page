@@ -67,7 +67,7 @@ export const Assessment = () => {
             <img
               src="/lovable-uploads/b2e48746-2de1-40bb-b91d-bc2a1592b746.png"
               alt="MediTrack assessment tools interface showing various health tracking features"
-              className="w-full h-auto rounded-lg shadow-xl opacity-0 transition-opacity duration-500 animate-float"
+              className="w-full h-auto rounded-lg shadow-xl opacity-0 transition-opacity animate-float"
               loading="lazy"
               onLoad={(e) => {
                 const target = e.target as HTMLImageElement;
