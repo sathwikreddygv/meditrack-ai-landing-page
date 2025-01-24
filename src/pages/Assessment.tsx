@@ -39,7 +39,7 @@ const Assessment = () => {
           </div>
           <div className="scroll-animate opacity-0 translate-y-10 transition-all duration-700 delay-300">
             <img 
-              src="/lovable-uploads/b9815b48-d170-49a6-bfa3-813831e0f953.png"
+              src="/lovable-uploads/5e8aca61-a79a-48a4-a27f-d032a01cf3fa.png"
               alt="MediTrack Assessment Tools" 
               className="w-full h-auto rounded-lg shadow-lg"
             />
